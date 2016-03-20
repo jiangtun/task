@@ -1,0 +1,34 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>九宫格</title>
+<style>
+.box{border:1;background:white;width:500px;height:500px;position:absolute;top:50%;left:50%;margin-top:-250px;margin-left:-250px;}
+.t_l{border-radius:10px;background:orange;width:150px;height:150px;margin-top:10px;margin-left:10px;position:absolute;}
+.t_m{border-radius:10px;background:orange;width:150px;height:150px;margin-top:10px;margin-left:175px;px;position:absolute;}
+.t_r{border-radius:10px;background:orange;width:150px;height:150px;margin-top:10px;margin-left:340px;px;position:absolute;}
+.m_l{border-radius:10px;background:orange;width:150px;height:150px;margin-top:175px;margin-left:10px;position:absolute;}
+.m_m{border-radius:10px;background:orange;width:150px;height:150px;margin-top:175px;margin-left:175px;px;position:absolute;}
+.m_r{border-radius:10px;background:orange;width:150px;height:150px;margin-top:175px;margin-left:340px;px;position:absolute;}
+.b_l{border-radius:10px;background:orange;width:150px;height:150px;margin-top:340px;margin-left:10px;position:absolute;}
+.b_m{border-radius:10px;background:orange;width:150px;height:150px;margin-top:340px;margin-left:175px;position:absolute;}
+.b_r{border-radius:10px;background:orange;width:150px;height:150px;margin-top:340px;margin-left:340px;position:absolute;}
+
+</style>
+</head>
+
+<body>
+<div class="box">
+ <div class="t_l"></div>
+ <div class="t_m"></div>
+ <div class="t_r"></div>
+ <div class="m_l"></div>
+ <div class="m_m"></div>
+ <div class="m_r"></div>
+ <div class="b_l"></div>
+ <div class="b_m"></div>
+ <div class="b_r"></div>
+</div>
+</body>
+</html>
